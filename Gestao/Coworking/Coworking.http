@@ -1,0 +1,114 @@
+### Requisação para a raiz da aplicação
+GET http://localhost:5071
+
+### Listar users
+GET http://localhost:5071/user
+
+### Buscar user
+GET http://localhost:5071/user/741a6a56-ce34-46d8-964c-02d0baae5155
+
+### Cadastrar user
+POST http://localhost:5071/user
+Content-Type: application/json
+
+{
+    "Name" : "Pedro Alves",
+    "Email" : "pedroalves2000@hotmail.com",
+    "Cellphone" : 11111111,
+    "taxNumber" : "11111111111",
+    "Password" : "111"
+}
+
+### Deletar user
+DELETE http://localhost:5071/user/741a6a56-ce34-46d8-964c-02d0baae5155
+
+### Alterar user
+PUT http://localhost:5071/user/741a6a56-ce34-46d8-964c-02d0baae5155
+Content-Type: application/json
+
+{
+    "Name" : "Oswaldo Deco Costa",
+    "Email" : "oswaldo100@live.com",
+    "Cellphone" : 888888888,
+    "taxNumber" : "888888888",
+    "Password" : "888888888"
+}
+
+###Buscar Payment
+GET http://localhost:5071/payment/
+
+###Cadastrat Payment
+POST http://localhost:5071/payment/
+Content-Type: application/json
+
+{
+    "valor": 150,
+    "status": ,
+    "Date": "2024-10-20T10:00:00"
+}
+
+###Deletar payment
+DELETE http://localhost:5071/payment/bf78ee59-e447-4e3e-a0d0-179bbe07876d
+
+###Altera Payment
+PUT http://localhost:5071/payment/12aea8f2-1f62-47b1-9879-d1235f3711d4
+Content-Type: application/json
+
+{
+    "valor": 200,
+    "status": ,
+    "Date": "2024-10-21T10:00:00"
+}
+
+###Listar Spaces
+GET http://localhost:5071/spaces
+
+###Buscar Space 
+GET http://localhost:5071/spaces/E9112449-A026-45EC-8D08-6E7A41DAFA7E
+
+
+###Cadastrar Space
+POST http://localhost:5071/spaces
+Content-Type: application/json
+
+{
+    "Name": "Espaço A",
+    "Capacity": 50,
+    "PricePerHour": 150
+}
+
+###Deletar space
+DELETE http://localhost:5071/spaces/{id}
+
+###Alterar Space
+PUT http://localhost:5071/spaces/482c99c3-4e6b-458a-ac1a-024c8bfc8ea7
+Content-Type: application/json
+
+{
+    "Name": "Espaço A Modificado",
+    "Capacity": 99,
+    "PricePerHour": 200
+}
+
+###Buscar Booking 
+GET http://localhost:5071/bookings/4c180306-eee8-4642-b5e0-aba453b8babe
+
+
+###cadastrar booking
+POST http://localhost:5071/bookings
+Content-Type: application/json
+
+{
+    "Users": "Espaço C"
+}
+
+###deletar booking
+DELETE http://localhost:5071/bookings/9b0579e6-13c9-437c-9990-d3122022fc9b
+
+###alterar booking
+PUT http://localhost:5071/bookings/abd67801-5e25-4be4-8ce6-e690f3407622
+Content-Type: application/json
+
+{
+    "users": "Espaço A Modificado"
+}

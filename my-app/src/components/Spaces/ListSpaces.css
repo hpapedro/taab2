@@ -1,0 +1,64 @@
+.list-spaces {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333; /* Preto */
+  }
+  
+  .space-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .space-item h3 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .space-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333; /* Preto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #555; /* Tom mais claro para o hover */
+  }
+  
+  .button.edit {
+    background-color: #007bff; /* Azul para editar */
+  }
+  
+  .button.edit:hover {
+    background-color: #0056b3;
+  }
+  
+  .button.delete {
+    background-color: #ff4c4c; /* Vermelho para deletar */
+  }
+  
+  .button.delete:hover {
+    background-color: #e60000;
+  }
+  

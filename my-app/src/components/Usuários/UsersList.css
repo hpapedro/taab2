@@ -1,0 +1,41 @@
+.users-list {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333; /* Preto */
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333; /* Preto */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead th {
+  background-color: #333; /* Preto */
+  color: white;
+  padding: 10px;
+}
+
+.tbody .row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tbody .row:hover {
+  background-color: #ddd;
+}
+
+.row td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}

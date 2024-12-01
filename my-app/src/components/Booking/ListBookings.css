@@ -1,0 +1,28 @@
+.list-bookings {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .bookings-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .message {
+    color: red;
+    font-size: 16px;
+  }
+  

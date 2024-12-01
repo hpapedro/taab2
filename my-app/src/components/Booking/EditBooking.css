@@ -1,0 +1,55 @@
+.edit-booking {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333; /* Preto */
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333; /* Preto */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333; /* Preto */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #333; /* Preto */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #555; /* Um tom mais claro de preto para o hover */
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    color: #333; /* Preto */
+  }
+  
